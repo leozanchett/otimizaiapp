@@ -26,8 +26,7 @@ jobs:
         run: |
             flutter pub upgrade --major-versions
             flutter pub get
-            flutter build web   
-        #flutter build web --dart-define=FIREBASE_API_KEY=${{ secrets.FIREBASE_API_KEY }}
+            flutter build web --dart-define=FIREBASE_API_KEY=${{ secrets.FIREBASE_API_KEY }}
         # Importante: O comando flutter build web --release não é mais necessário
         # e para que o build funcione no GitHub Actions, é necessário ter a pasta web no diretório raiz do projeto
 
