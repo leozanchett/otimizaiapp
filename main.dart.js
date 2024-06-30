@@ -116410,7 +116410,7 @@ return A.M($async$A9,r)}}
 A.afV.prototype={
 $1(a){var s=null,r=this.a,q=A.bF(r.a,s,s,s,s,s,s)
 r=A.bF(r.b,s,s,s,s,s,s)
-return A.AY(A.a([A.kN(B.baX,new A.afU(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,r,s,s,s,s,s,q)},
+return A.AY(A.a([A.kN(B.baY,new A.afU(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,r,s,s,s,s,s,q)},
 $S:112}
 A.afU.prototype={
 $0(){A.d8(this.a,!1).fJ()},
@@ -116482,7 +116482,7 @@ A.acE(s,s,!0,s,new A.afZ(),this.a,s,!0,t.z)},
 $S:0}
 A.afZ.prototype={
 $1(a){var s=null
-return A.AY(A.a([A.kN(B.baU,new A.afX(a),s),A.kN(B.SY,new A.afY(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.bb2,s,s,s,s,s,B.SY)},
+return A.AY(A.a([A.kN(B.baV,new A.afX(a),s),A.kN(B.SY,new A.afY(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.bb2,s,s,s,s,s,B.SY)},
 $S:112}
 A.afX.prototype={
 $0(){A.d8(this.a,!1).i8(null)},
@@ -116725,7 +116725,7 @@ P(a){var s=this,r=null,q="Fabio Antonio Stella",p="Maicon Paulo Stella",o="Simon
 k=A.a([A.bF("Preencher os dados para faturamento",r,r,r,l,r,r),B.fr,B.bT,A.mD(!0,s.e,A.a([q,p,o,n,m],k),"Propriedade",r,r),B.bT,A.mD(!0,s.f,A.a([q,p,o,n,m],k),"Emitente",r,r),B.bT,A.mD(!0,s.r,A.a(["Devolu\xe7\xe3o de Compra","Devolu\xe7\xe3o de venda de mercadoria adquirida ou recebida","Devolu\xe7\xe3o de Venda de Produ\xe7\xe3o da Propriedade","Nota Fiscal de estorno n\xe3o cancelada no prazo legal","Venda de Producao da Propriedade","Venda de Merc.Adq.ou Rec.Terc."],k),"Natureza da Opera\xe7\xe3o",r,r),B.bT,A.mD(!0,s.w,A.b7M(),"Cliente",s.gac1(),s.gac_()),B.bT,A.bF("Adicionar informa\xe7\xf5es de pagamento",r,r,r,l,r,r),B.fr,B.ny,A.mD(!0,s.x,A.a(["a vista","a prazo"],k),"Condi\xe7\xe3o de Pagamento",r,r),B.bT,A.mD(!0,s.y,A.a(["Dinheiro","Cheque","Boleto banc\xe1rio","Dep\xf3sito banc\xe1rio","Pagamento Instant\xe2neo","Transfer\xeancia banc\xe1ria","Sem pagamento","Outros"],k),"Tipo de Pagamento",r,r),B.bT,A.mD(!0,s.z,A.a(["1x","2x","3x","4x"],k),"Quantidade de Parcelas",s.gabC(),r),B.bT],t.D)
 B.n.Z(k,s.at)
 l=A.R(a).ax.b
-k.push(new A.c8(B.pp,A.fF(A.aiQ(B.baW,new A.al4(s,a),A.aUd(r,r,A.Y(204,l.gm(l)>>>16&255,l.gm(l)>>>8&255,l.gm(l)&255),r,r,r,r,r,r,r,r,r,B.Zz,r,r,r,r,r,r)),r,r),r))
+k.push(new A.c8(B.pp,A.fF(A.aiQ(B.baX,new A.al4(s,a),A.aUd(r,r,A.Y(204,l.gm(l)>>>16&255,l.gm(l)>>>8&255,l.gm(l)&255),r,r,r,r,r,r,r,r,r,B.Zz,r,r,r,r,r,r)),r,r),r))
 return A.SZ(r,A.dP(k,B.b2,B.av,B.aF),s.d)},
 Hd(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=A.hn(a.split("x")[0],null),g=i.Q
 B.n.a7(g)
@@ -117163,7 +117163,7 @@ n.toString
 o=A.a([A.alO(A.aT4(A.bF(n,s,s,s,s,s,s),50),"nota_hero_"+p,!1),B.bT,A.bF("Cliente: "+n,s,s,s,A.R(a).p2.at,s,s),B.ny,A.bF("Propriedade: "+A.f(o.a),s,s,s,A.R(a).p2.ax,s,s),A.bF("Emitente: "+A.f(o.b),s,s,s,A.R(a).p2.ax,s,s),A.bF("Natureza da Opera\xe7\xe3o: "+A.f(o.c),s,s,s,A.R(a).p2.ax,s,s),A.bF("Nome do Cliente: "+A.f(o.e),s,s,s,A.R(a).p2.ax,s,s),A.bF("Condi\xe7\xe3o de Pagamento: "+A.f(o.f),s,s,s,A.R(a).p2.ax,s,s),A.bF("Tipo de Pagamento: "+A.f(o.r),s,s,s,A.R(a).p2.ax,s,s),A.bF("Quantidade de Parcelas: "+A.f(o.w),s,s,s,A.R(a).p2.ax,s,s),A.bF("Parcelas e Vencimentos: "+A.f(o.x),s,s,s,A.R(a).p2.ax,s,s)],t.D)
 q=q.a
 B.n.Z(o,new A.ah(q,new A.asB(a),A.a7(q).i("ah<1,i>")))
-return A.Zo(r,A.ZX(new A.c8(B.w0,A.dP(o,B.dY,B.av,B.aF),s),B.ba),s,new A.rk(B.a_V,B.Y,B.N,new A.asC(this,a),B.ds,!0,B.TQ,B.baZ,s))}}
+return A.Zo(r,A.ZX(new A.c8(B.w0,A.dP(o,B.dY,B.av,B.aF),s),B.ba),s,new A.rk(B.a_V,B.Y,B.N,new A.asC(this,a),B.ds,!0,B.TQ,B.bb_,s))}}
 A.asB.prototype={
 $1(a){var s=null,r=this.a,q=a.e,p=a.d
 return A.dP(A.a([B.bT,A.bF("Produto: "+a.a,s,s,s,A.R(r).p2.at,s,s),A.bF("Quantidade: "+A.f(q),s,s,s,A.R(r).p2.ax,s,s),A.bF("Valor Unit\xe1rio: R$ "+B.l.ah(p,2),s,s,s,A.R(r).p2.ax,s,s),A.bF("Valor Total: R$ "+B.l.ah(p*q,2),s,s,s,A.R(r).p2.ax,s,s)],t.D),B.cX,B.av,B.aF)},
@@ -117175,8 +117175,8 @@ $S:0}
 A.asA.prototype={
 $1(a){var s=null,r=this.a,q=r.c.c
 if(q==="Faturado")return A.AY(A.a([A.kN(B.SZ,new A.asw(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.bb9,s,s,s,s,s,B.T_)
-if(q==="Cancelado")return A.AY(A.a([A.kN(B.SZ,new A.asx(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.baY,s,s,s,s,s,B.T_)
-return A.AY(A.a([A.kN(B.bba,new A.asy(a),s),A.kN(B.baV,new A.asz(r,a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.bb6,s,s,s,s,s,B.bb8)},
+if(q==="Cancelado")return A.AY(A.a([A.kN(B.SZ,new A.asx(a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.baZ,s,s,s,s,s,B.T_)
+return A.AY(A.a([A.kN(B.bba,new A.asy(a),s),A.kN(B.baW,new A.asz(r,a),s)],t.D),s,s,s,s,s,s,s,s,B.T,B.bb6,s,s,s,s,s,B.bb8)},
 $S:112}
 A.asw.prototype={
 $0(){A.d8(this.a,!1).i8(null)},
@@ -123302,8 +123302,8 @@ B.a0I=new A.t5(2,"top")
 B.a0J=new A.t5(3,"center")
 B.a0K=new A.t5(4,"bottom")
 B.b8O=new A.t(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.bb_=new A.di("Vers\xe3o: 1.0.9",null,B.b8O,null,null,null,null,null,null)
-B.a0L=new A.Es(null,B.bb_,null,null,!0,null,!1,null)
+B.baU=new A.di("Vers\xe3o: 1.0.10",null,B.b8O,null,null,null,null,null,null)
+B.a0L=new A.Es(null,B.baU,null,null,!0,null,!1,null)
 B.a27=A.a(s(["1. \u0161tvr\u0165rok","2. \u0161tvr\u0165rok","3. \u0161tvr\u0165rok","4. \u0161tvr\u0165rok"]),t.s)
 B.a0M=A.a(s(["1\u129b\u12cd \u1229\u1265","2\u129b\u12cd \u1229\u1265","3\u129b\u12cd \u1229\u1265","4\u129b\u12cd \u1229\u1265"]),t.s)
 B.x4=A.a(s(["EEEE d. MMMM y","d. MMMM y","d. MMM y","dd.MM.y"]),t.s)
@@ -130175,14 +130175,14 @@ B.baR=new A.di("Selecionar Data",null,null,null,null,null,null,null,null)
 B.tm=new A.t(!0,null,null,"Noto Serif",null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.baS=new A.di("Sair",null,B.tm,null,null,null,null,null,null)
 B.baT=new A.di("Hist\xf3rico de pedidos",null,B.tm,null,null,null,null,null,null)
-B.baU=new A.di("Cancelar",null,null,null,null,null,null,null,null)
-B.baV=new A.di("Sim",null,null,null,null,null,null,null,null)
-B.baW=new A.di("Adicionar Produtos",null,B.SU,null,null,null,null,null,null)
+B.baV=new A.di("Cancelar",null,null,null,null,null,null,null,null)
+B.baW=new A.di("Sim",null,null,null,null,null,null,null,null)
+B.baX=new A.di("Adicionar Produtos",null,B.SU,null,null,null,null,null,null)
 B.SZ=new A.di("Ok",null,null,null,null,null,null,null,null)
-B.baX=new A.di("OK",null,null,null,null,null,null,null,null)
-B.baY=new A.di("Esta nota fiscal j\xe1 foi cancelada.",null,null,null,null,null,null,null,null)
+B.baY=new A.di("OK",null,null,null,null,null,null,null,null)
+B.baZ=new A.di("Esta nota fiscal j\xe1 foi cancelada.",null,null,null,null,null,null,null,null)
 B.b8P=new A.t(!0,null,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.baZ=new A.di("Cancelar",null,B.b8P,null,null,null,null,null,null)
+B.bb_=new A.di("Cancelar",null,B.b8P,null,null,null,null,null,null)
 B.bb0=new A.di("Resumo do Pedido",null,null,null,null,null,null,null,null)
 B.bao=new A.t(!0,B.N,null,"Noto Serif",null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bb1=new A.di("Gerar Pedido",null,B.bao,null,null,null,null,null,null)
