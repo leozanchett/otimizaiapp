@@ -1,6 +1,8 @@
 name: Build and Deploy Flutter Web App
 
-on: [push]
+on: 
+  repository_dispatch:
+    types: [custom_event]
 
 jobs:
   build:
