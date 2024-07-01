@@ -12,7 +12,7 @@ jobs:
       - name: Checkout private repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.actor }}/agronota-app 
+          repository: leozanchett/agronota-app 
           token: ${{ secrets.AGRONOTA_APP }}
           path: otimizai
           ref: main 
